@@ -1,0 +1,31 @@
+html, body, form {
+    height: 90%;
+    width: 90%;
+}
+
+.round {
+    position: absolute; /* Абсолютное позиционирование */
+    border: 2px solid black;
+    border-radius: 50%;
+    background: rgba(25, 141, 26, 0.8);
+}
+
+.block {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    border: 80px solid transparent;
+    border-bottom: 80px solid green;
+
+}
+
+.square {
+    background: rgba(255, 26, 26, 0.8);
+    border: black solid 2px;
+    position: absolute;
+}
+
+#wracked {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+}
