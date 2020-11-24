@@ -13,8 +13,11 @@ html, body, form {
 .block {
     content: '';
     position: absolute; /* Абсолютное позиционирование */
-    border: 80px solid transparent;
-    border-bottom: 80px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
+    width:0;
+    height: 0;
 
 }
 

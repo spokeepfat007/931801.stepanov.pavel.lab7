@@ -24,7 +24,8 @@ const show2 = () => {
         let x = Math.random() * (900 - 75) + 75;
         trig.style.marginLeft = `${x}px`;
         let k = Math.random() * (150 - 40) + 40;
-        trig.style.border = k + "px" + " solid transparent";
+        trig.style.borderLeft = k/2 + "px" + " solid transparent";
+        trig.style.borderRight = k/2 + "px" + " solid transparent";
         trig.style.borderBottom = `${k}px` + " solid rgba(26,26,255,0.8)";
         const wrack = document.getElementById("wracked")
         wrack.appendChild(trig);
