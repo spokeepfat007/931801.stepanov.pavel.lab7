@@ -13,12 +13,7 @@ html, body, form {
 .block {
     content: '';
     position: absolute; /* Абсолютное позиционирование */
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid yellow;
-    width:0;
-    height: 0;
-
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
 }
 
 .square {
